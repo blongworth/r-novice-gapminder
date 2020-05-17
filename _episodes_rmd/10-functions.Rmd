@@ -83,10 +83,10 @@ whoever asked for it.
 
 > ## Tip
 >
-> One feature unique to R is that the return statement is not required.
-> R automatically returns whichever variable is on the last line of the body
-> of the function. But for clarity, we will explicitly define the
-> return statement.
+> `return` statements are not required in R. If one is missing, R will return
+> the output of the last call in the function. Best practice in R is not to
+> use explicit `return` unless needed. In this chapter, we will explicitly define the
+> return statement for clarity.
 {: .callout}
 
 
